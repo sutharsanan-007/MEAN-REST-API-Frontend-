@@ -1,0 +1,13 @@
+table{
+    width: 80%;
+    border: 1px solid gray;
+    margin: auto;
+}
+tr{
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+tr:hover{
+    background-color: #f0f0f0;
+    transition: .5s ease-in-out;
+}

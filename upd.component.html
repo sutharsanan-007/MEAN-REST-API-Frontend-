@@ -1,0 +1,11 @@
+<form [formGroup]="updUser" novalidate class="form col-md-5">
+    <label for="">Id</label>
+    <input type="text" formControlName="id" class="form-control">
+    <label for="">Name</label>
+    <input type="text" formControlName="name" class="form-control">
+    <label for="">Mobile Number</label>
+    <input type="number" formControlName="mob" class="form-control">
+    <label for="">Address</label>
+    <input type="text" formControlName="addr" class="form-control">
+    <button type="submit" [disabled]="!updUser.valid" (click)="onSubmit()" class="btn btn-info">Update</button>
+</form>
